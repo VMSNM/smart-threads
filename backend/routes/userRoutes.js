@@ -1,6 +1,6 @@
 import express from 'express';
 import { followUnfollowUser, getFollowers, getFollowingUsers, getSuggestedUsers, getUserProfile, loginUser, logoutUser, signupUser, updateUser } from '../controllers/userController.js';
-import protectRoute from '../middlewares/ProtectRoute.js';
+import protectRoute from '../middlewares/protectRoute.js';
 
 const router = express.Router();
 
